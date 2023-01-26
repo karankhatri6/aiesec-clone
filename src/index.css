@@ -3,4 +3,7 @@
 :root{
   --font-family: 'Lato', sans-serif;
   --btn-color: #037ef3;
+  --btn-hover: #2ba0ff;
+  --heading-color: #000000D9;
+  --para-color: #6b7586;
 }
