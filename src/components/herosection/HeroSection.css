@@ -1,0 +1,105 @@
+*{
+    font-family: var(--font-family);
+}
+.hero-section{
+    width: 74%;
+    margin: 24rem auto;
+}
+
+.hero-section-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.hero-section-box .hero-heading h1{
+    font-size: 68px;
+    color: var(--heading-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section-box .hero-heading p{
+    color: var(--para-color);
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.hero-section-box .hero-heading .hero-btn{
+    line-height: 46px;
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+    text-shadow: none;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    transition: all .2s cubic-bezier(.645,.045,.355,1);
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.hero-section-box .hero-heading .hero-btn span{
+    color: #fff;
+    font-weight: 700;
+    padding: 0.01px 24px 10.4px;
+}
+
+.hero-section-box .hero-heading .hero-btn:hover{
+    background-color: var(--btn-hover);
+}
+
+.hero-section-box .hero-image img{
+    height: 400px;
+    width: 400px;
+    margin-left: 11rem;
+}
+
+/* responsive css style 1250px */
+@media (max-width: 1250px ) {
+    .hero-section{
+        width: 87%;
+    }
+    .hero-section-box{
+        gap: 1rem;
+    }
+    .hero-section-box .hero-heading h1{
+        font-size: 64px;
+    }
+    .hero-section-box .hero-heading p {
+        font-size: 24px;
+    }
+    .hero-section-box .hero-image img{
+        height: 370px;
+        width: 370px;
+    }
+}
+
+/* responsive css style 930px */
+@media (max-width: 930px ){
+    .hero-section-box .hero-heading h1{
+        font-size: 52px;
+    }
+    .hero-section-box .hero-heading p{
+        font-size: 18px;
+    }
+}
+
+/* responsive css style 786px */
+@media (max-width: 786px ){
+    .hero-section-box {
+        grid-template-columns: 1fr;
+    }
+    .hero-section-box .hero-heading h1{
+        font-size: 40px;
+    }
+    .hero-section-box .hero-heading p{
+        font-size: 16px;
+    }
+    .hero-section-box .hero-image img{
+        height: 340px;
+        width: 340px;
+    }
+}
