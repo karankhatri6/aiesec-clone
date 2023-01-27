@@ -8,6 +8,11 @@ const App = () => {
     <div>
       < Navbar />
       < HeroSection />
+      <div className='scroll-down'>
+        <div className='scroll-down-line'></div>
+        <span>Scroll Down</span>
+        <div className='scroll-down-line'></div>
+      </div>
     </div>
   );
 };
