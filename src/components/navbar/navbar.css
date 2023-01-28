@@ -55,6 +55,10 @@ li {
 
 }
 
+.menu-links ul li a:hover{
+    color: var(--btn-color);
+}
+
 .menu-links ul li .login-btn{
     position: relative;
     display: inline-block;

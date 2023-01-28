@@ -4,7 +4,8 @@ import Navbar from './components/navbar/Navbar';
 import HeroSection from './components/herosection/HeroSection';
 import ScrollDown from './components/scrollDown/ScrollDown';
 import Carousel from './components/carousel/Carousel';
-import {CarouseData} from './components/carousel/CarouseData';  
+import {CarouseData} from './components/carousel/CarouseData'; 
+import Program from './components/program/Program'; 
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       < HeroSection />
       < ScrollDown />
       < Carousel slides={CarouseData} />
+      < Program />
     </div>
   );
 };
