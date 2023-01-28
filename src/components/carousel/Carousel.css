@@ -136,8 +136,8 @@
     }
 }
 
-/* responsive css style 580px */
-@media (max-width: 580px ) {
+/* responsive css style 480px */
+@media (max-width: 480px ) {
     .image-carousel {
         margin-left: 3rem;
     }

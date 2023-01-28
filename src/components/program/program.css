@@ -1,6 +1,7 @@
-.program {
-  width: 73%;
-  margin: 8rem auto;
+.program-box {
+    margin-left: 21rem;
+    margin-right: 21rem;
+    overflow-x: hidden;
 }
 
 .program h1{
@@ -18,7 +19,6 @@
 .program .Cards {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 80px;
 }
 
@@ -39,7 +39,6 @@
 .program .Cards .card .image{
     width: 352px;
     height: 200px;
-    overflow: hidden;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -131,4 +130,207 @@
     opacity: 1;
 }
 
+/* responsive css style 1250px */
+@media (max-width: 1250px ) {
+    .program-box {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .program .Cards .card {
+        width: 330px;
+        height: 265px;
+    }
+    .program .Cards .card .image{
+        width: 330px;
+        height: 200px;
+    }
+}
 
+/* responsive css style 1150px */
+@media (max-width: 1150px ) {
+    .program-box {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+    .program .Cards .card {
+        width: 310px;
+        height: 250px;
+    }
+    .program .Cards .card .image{
+        width: 310px;
+        height: 175px;
+    }
+}
+
+/* responsive css style 1080px */
+@media (max-width: 1080px ) {
+    .program-box {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .program .Cards .card {
+        width: 285px;
+        height: 236px;
+    }
+    .program .Cards .card .image{
+        width: 285px;
+        height: 160px;
+    }
+    .program .Cards .card .pro-img{
+        left: 9rem;
+        top: 9rem;
+    }
+
+    .program .Cards .card p{
+        left: 7rem;
+    }
+}
+
+/* responsive css style 998px */
+@media (max-width: 998px ){
+    .program h1{
+        font-size: 40px;
+    }
+
+    .program p{
+        font-size: 20px;
+        width: 485px;
+    }
+
+    .program .Cards{
+        flex-direction: column;
+    }
+
+    .program .Cards .card {
+        width: 520px;
+        height: 370px;
+    }
+    .program .Cards .card .image{
+        width: 520px;
+        height: 300px;
+    }
+    .program .Cards .card .pro-img{
+        left: 20rem;
+        top: 22rem;
+    }
+
+    .program .Cards .card p{
+        left: 18rem;
+    }
+}
+
+/* responsive css style 690px */
+@media (max-width: 690px ) {
+    .program-box {
+        margin-left: 6rem;
+        margin-right: 4rem;
+    }
+    
+    .program h1{
+        font-size: 32px;
+    }
+
+    .program p{
+        font-size: 16px;
+        width: 385px;
+    }
+    .program .Cards .card {
+        width: 450px;
+        height: 330px;
+    }
+    .program .Cards .card .image{
+        width: 450px;
+        height: 250px;
+    }
+
+    .program .Cards .card .pro-img{
+        left: 16rem;
+        top: 18rem;
+    }
+
+    .program .Cards .card p{
+        left: 15rem;
+    }
+}
+
+/* responsive css style 580px */
+@media (max-width: 580px ) {
+    .program-box {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .program .Cards .card {
+        width: 400px;
+        height: 300px;
+    }
+    .program .Cards .card .image{
+        width: 400px;
+        height: 220px;
+    }
+
+    .program .Cards .card .pro-img{
+        left: 14rem;
+        top: 16rem;
+    }
+
+    .program .Cards .card p{
+        left: 12rem;
+    }
+
+}
+
+/* responsive css style 480px */
+@media (max-width: 480px ) {
+    .program-box {
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+}
+
+/* responsive css style 460px */
+@media (max-width: 460px ) {
+    .program .Cards .card {
+        width: 370px;
+        height: 250px;
+    }
+    .program .Cards .card .image{
+        width: 370px;
+        height: 180px;
+    }
+
+    .program .Cards .card .pro-img{
+        left: 13rem;
+        top: 12rem;
+    }
+
+    .program .Cards .card p{
+        left: 12rem;
+    }
+}
+
+/* responsive css style 400px */
+@media (max-width: 400px ) {
+    .program p{
+        width: 330px;
+    }
+    .program .Cards .card {
+        width: 330px;
+        height: 220px;
+    }
+    .program .Cards .card .image{
+        width: 330px;
+        height: 160px;
+    }
+
+    .program .Cards .card .pro-img{
+        width: 104px;
+        height: 32px;
+        left: 11rem;
+        top: 11rem;
+    }
+
+    .program .Cards .card p{
+        left: 9rem;
+    }
+}

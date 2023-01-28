@@ -9,6 +9,7 @@ import './program.css'
 
 const Program = () => {
   return (
+    <div className='program-box'>
         <div className='program'>
             <h1>Our Programs</h1>
             <p>We aim to develop leadership qualities and capabilities in young people with these programs</p>
@@ -33,6 +34,7 @@ const Program = () => {
                 </div>
             </div>
         </div>
+    </div>
   );
 };
 
