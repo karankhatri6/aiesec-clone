@@ -2,6 +2,7 @@
     margin-left: 21rem;
     margin-right: 21rem;
     margin-top: 18rem;
+    width: 73%;
 }
 
 .container {
@@ -32,7 +33,6 @@
     cursor: pointer;
     transition: all .2s cubic-bezier(.645,.045,.355,1);
     border: 1px solid #d9d9d9;
-    border-radius: 4px;
     font-size: 24px;
     padding: 5px;
     border-radius: 50%;
@@ -58,3 +58,80 @@
     margin-right: 4rem;
     border-radius: 8px;
 }
+
+/* responsive css style 1250px */
+@media (max-width: 1250px ) {
+    .image-carousel {
+        margin-left: 10rem;
+    }
+
+    .image-container img {
+        width: 950px;
+        height: 470px;
+    }
+}
+
+/* responsive css style 1080px */
+@media (max-width: 1080px ) {
+    .image-carousel {
+        margin-left: 8rem;
+    }
+    .container p {
+        font-size: 34px;
+    }
+    .next-btn, .pre-btn{
+        font-size: 22px;
+    }
+
+    .image-container img {
+        width: 800px;
+        height: 440px;
+    }
+}
+
+/* responsive css style 988px */
+@media (max-width: 988px ) {
+    .image-container img {
+        width: 750px;
+        height: 420px;
+    }
+}
+
+/* responsive css style 786px */
+@media (max-width: 786px ) {
+    .image-carousel {
+        margin-left: 8rem;
+    }
+    .container p {
+        font-size: 30px;
+    }
+    .next-btn, .pre-btn{
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .image-container img {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+/* responsive css style 580px */
+@media (max-width: 580px ) {
+    .image-carousel {
+        margin-left: 8rem;
+    }
+    .container p {
+        font-size: 30px;
+    }
+    .next-btn, .pre-btn{
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .image-container img {
+        width: 600px;
+        height: 300px;
+    }
+}
+
