@@ -34,6 +34,17 @@
 /* responsive css style 580px */
 @media (max-width: 580px ) {
     .scroll-down{
-        margin-left: -95px;
+      margin-left: -95px;
+      font-size: 10px;
+      line-height: 20px;
+      margin-top: 50px;
+    }
+
+    .scroll-down-line{
+        border-top: 0.8px solid;
+        width: 50px;
+        margin-top: 10px;
+        margin-right: 8px;
+        margin-left: 8px;
     }
 }
